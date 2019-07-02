@@ -11,5 +11,5 @@
     }
 ```
 
-### Create token 
-- based on User credentials 
+### Token claims
+![image](https://user-images.githubusercontent.com/30668073/60503060-41509f00-9cbf-11e9-8961-70691976fb5c.png)
