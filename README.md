@@ -60,7 +60,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI2IiwidW5pcXVlX25hbWUiOiJUZXN
 To decode token go to: https://jwt.io/ 
 
 ### Status codes
-- 401 Unauthorized = wrong token,
-- 403 Forbidden = lack of some Role.
+- 401 Unauthorized = wrong token
+- 403 Forbidden = lack of some Role
 
 
