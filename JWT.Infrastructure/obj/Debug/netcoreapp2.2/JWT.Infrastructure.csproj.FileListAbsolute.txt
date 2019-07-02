@@ -1,0 +1,12 @@
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\bin\Debug\netcoreapp2.2\JWT.Infrastructure.deps.json
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\bin\Debug\netcoreapp2.2\JWT.Infrastructure.dll
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.csprojAssemblyReference.cache
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.AssemblyInfo.cs
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\bin\Debug\netcoreapp2.2\JWT.Infrastructure.pdb
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\bin\Debug\netcoreapp2.2\JWT.Models.dll
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\bin\Debug\netcoreapp2.2\JWT.Models.pdb
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.csproj.CopyComplete
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.dll
+C:\Users\alkami\source\repos\JWT-IdentityUser\JWT-IdentityUser\JWT.Infrastructure\obj\Debug\netcoreapp2.2\JWT.Infrastructure.pdb
