@@ -1,2 +1,15 @@
 # JWT Authentication with IdentityUser
-implementation of simple authentication API with JWT Web Token and  Microsoft.AspNetCore.Identity.IdentityUser, using .Net Core 2.2
+
+### User model
+```c#
+    public class User : IdentityUser<int>, IEntity
+    {
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public DateTime BirthDate { get; set; }
+        public bool? IsActive { get; set; }
+    }
+```
+
+### Create token 
+- based on User credentials 
