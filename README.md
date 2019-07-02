@@ -11,7 +11,21 @@ public class User : IdentityUser<int>, IEntity
 }
 ```
 
-## Example token 
+### Create token (cURL)
+- request
+```cURL
+curl -X GET "https://localhost:5001/api/Authentication/createToken?userName=Test1&password=pasword1" -H "accept: application/json"
+```
+- response
+```JSON
+{
+  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3IiwidW5pcXVlX25hbWUiOiJUZXN0MiIsImVtYWlsIjoic3RyaW5nIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTYyMDYwNjg1LCJleHAiOjE1NjI2NjU0ODUsImlhdCI6MTU2MjA2MDY4NX0.UxEF087PghmHhko5iyUbbII4IX2yVywYszwkbzdl5CE",
+  "success": true,
+  "errors": null
+}
+```
+
+## Token info 
 - Claims:
 ```c#
 var userRoles = await _userManager.GetRolesAsync(user);
@@ -29,6 +43,7 @@ claims.AddRange(userRoles.Select(claim => new Claim(ClaimTypes.Role, claim)));
 ```JWT
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI2IiwidW5pcXVlX25hbWUiOiJUZXN0MSIsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTU2MjA1NzE5NCwiZXhwIjoxNTYyNjYxOTk0LCJpYXQiOjE1NjIwNTcxOTR9.Ni0UkA_2s1csKcm22XA354EheuXPBd6UzxkoqsRf5-A
 ```
+
 Decoded Data:
 ```JSON
 {
@@ -41,10 +56,7 @@ Decoded Data:
   "iat": 1562057194
 }
 ```
+
 To decode token go to: https://jwt.io/ 
 
-
-## Swagger
-### Create token
-![image](https://user-images.githubusercontent.com/30668073/60503229-912f6600-9cbf-11e9-99e3-c1eec2ce4eb8.png)
 
