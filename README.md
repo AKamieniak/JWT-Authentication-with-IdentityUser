@@ -25,7 +25,7 @@ curl -X GET "https://localhost:5001/api/Authentication/createToken?userName=Test
 }
 ```
 
-## Token info 
+### Token info 
 - Claims:
 ```c#
 var userRoles = await _userManager.GetRolesAsync(user);
@@ -44,7 +44,7 @@ claims.AddRange(userRoles.Select(claim => new Claim(ClaimTypes.Role, claim)));
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI2IiwidW5pcXVlX25hbWUiOiJUZXN0MSIsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTU2MjA1NzE5NCwiZXhwIjoxNTYyNjYxOTk0LCJpYXQiOjE1NjIwNTcxOTR9.Ni0UkA_2s1csKcm22XA354EheuXPBd6UzxkoqsRf5-A
 ```
 
-Decoded Data:
+- Decoded Data:
 ```JSON
 {
   "nameid": "6",
